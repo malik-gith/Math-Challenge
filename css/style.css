@@ -1,0 +1,112 @@
+* {
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+}
+
+body {
+       font-family: Arial, Helvetica, sans-serif;
+       min-height: 100vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+}
+
+input:focus {
+       outline: none;
+}
+
+.parent {
+       width: 400px;
+       max-width: 100%;
+       margin: 30px auto;
+       background-color: #072227;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       padding: 20px;
+       border-radius: 5px;
+}
+
+.parent h1 {
+       margin-bottom: 30px;
+       font-weight: 300;
+       font-size: 40px;
+       color: #4fbdba;
+}
+
+.parent p:first-of-type {
+       margin-bottom: 15px;
+       font-size: 25px;
+       color: #4fbdba;
+}
+
+.parent .question {
+       color: #fff;
+       margin-bottom: 15px;
+       font-size: 23px;
+       background-color: #35858b;
+       padding: 8px 16px;
+       border-radius: 5px;
+}
+
+.parent input[name='number'] {
+       border: none;
+       padding: 5px 10px;
+       background-color: #0000;
+       border-bottom: 1px solid #fff;
+       color: #000;
+       font-size: 20px;
+       margin-bottom: 18px;
+       color: #fff;
+}
+
+.parent input[name='number']::placeholder {
+       text-align: center;
+       color: #e3e3e3;
+       font-size: 16px;
+}
+
+.parent .submit {
+       border: none;
+       user-select: none;
+       padding: 7px 14px;
+       border-radius: 5px;
+       background-color: #aefeff;
+       color: #000;
+       margin-bottom: 15px;
+       cursor: pointer;
+       font-size: 17px;
+}
+
+.parent .result {
+       padding: 5px 10px;
+       display: none;
+       border-radius: 3px;
+}
+
+.parent p:last-of-type {
+       margin-top: 15px;
+       display: flex;
+       align-items: center;
+       color: #fff;
+}
+
+.parent p:last-of-type span {
+       background-color: #35858b;
+       padding: 3px 6px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 3px;
+       margin-left: 3px;
+       font-size: 20px;
+}
+
+.footer {
+       background-color: #aefeff;
+       padding: 20px;
+       text-align: center;
+       width: 100%;
+}
